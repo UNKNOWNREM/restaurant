@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #EAEAEA;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #EAEAEA;
+  padding: 10px;
+}
+
+.history-button {
+  margin-right: 10px;
+}
+
+.clear-button {
+  background-color: #FF0000;
+  color: #FFFFFF;
+}
+
+main {
+  flex: 1;
+  display: flex;
+}
+
+.menu {
+  width: 60%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0;
+  overflow: auto;
+}
+
+.order-management {
+  width: 40%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.order-list {
+  flex-grow: 1;
+  list-style: none;
+  padding: 0;
+}
+
+.order-list li {
+  font-size: 28px;
+  padding-left: 0;
+}
+
+.delete-button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 18px;
+  margin-left: 10px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}
+
+nav {
+  background-color: #F2F2F2;
+  padding: 10px;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.navigation {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+}
+
+.navigation li {
+  padding: 20px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.navigation li:hover {
+  background-color: #CCCCCC;
+}
+
+footer {
+  background-color: #F2F2F2;
+  padding: 10px;
+}
+
+.checkout {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #EAEAEA;
+  padding: 10px;
+}
+
+.subtotal {
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.checkout-button {
+  background-color: #008000;
+  color: #FFFFFF;
+}
+
+.menu-iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-content {
+  flex-grow: 1;
+  margin-top: 10px!important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.quantity-popup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-top: 10%;
+  margin-left: 25%;
+}
+
+.quantity-button {
+  padding: 10px 20px;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.quantity-display {
+  font-size: 36px;
+  padding: 10px;
+}
+
+.confirm-button {
+  display: block;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0; 
+}
+
+li {
+  padding-left: 20px;
+}

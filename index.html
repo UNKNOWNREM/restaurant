@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>餐廳名稱</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="top-buttons">
+      <a href="history.php"><button class="history-button">歷史訂單</button></a>
+      <button class="clear-button">清除訂單</button>
+    </div>
+  </header>
+  <main>
+    <div class="menu">
+      <nav>
+        <ul class="navigation">
+          <li data-file="setmeals.html">套餐</li>
+          <li data-file="parmigiano.html">帕瑪森</li>
+          <li data-file="hamburger.html">漢堡</li>
+          <li data-file="toasted-sandwich.html">現烤吐司</li>
+          <li data-file="wrap.html">捲餅</li>
+          <li data-file="egg-roll.html">蛋餅</li>
+          <li data-file="baked-toast.html">焗烤厚片</li>
+          <li data-file="coffee.html">咖啡Café</li>
+          <li data-file="european-biscuit.html">歐式燒餅</li>
+          <li data-file="delicious-combo.html">綜合美味</li>
+          <li data-file="drinks.html">飲料</li>
+        </ul>
+      </nav>
+      <!-- 小項目內容將在點擊大項目後動態加載 -->
+      <div class="menu-content">
+        <iframe class="menu-iframe" src=""></iframe>
+      </div>
+    </div>
+  
+    <div class="order-management">
+      <ul class="order-list"></ul>
+    </div>
+  </main>
+  
+
+  <footer>
+    <div class="checkout">
+      <span class="subtotal">試算金額: 0</span>
+      <button class="checkout-button">結帳</button>
+    </div>
+  </footer>
+
+</body>
+
+</html>
+
+

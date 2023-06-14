@@ -1,0 +1,46 @@
+/* 全局樣式 */
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-content: center;
+}
+
+/* 小項目佈局 */
+.item {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-details h2 {
+  margin: 0;
+}
+
+.item-details .price {
+  font-weight: bold;
+}
+
+/* 次級元素樣式 */
+.item-details h2,
+.item-details .price {
+  margin: 0;
+}
+
+
